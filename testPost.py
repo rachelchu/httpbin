@@ -11,3 +11,4 @@ data = {'key1':'value1','key2':'value2'}
 
 r = requests.post(url,data=data)
 print (r.text)
+print r.url

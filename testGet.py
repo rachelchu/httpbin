@@ -5,7 +5,7 @@ import requests
 import json
 import glob,os
 
-host = "http://127.0.0.1:8000/"
+host = "http://httpbin.org/"
 endpoint = "get"
 
 url = ''.join([host,endpoint])
